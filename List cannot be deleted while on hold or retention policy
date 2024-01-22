@@ -1,0 +1,6 @@
+List cannot be deleted while on hold or retention policy
+	One of our customer has requested for the SharePoint lists deletion. We tried to delete the list we received error “List cannot be deleted while on hold or retention policy”.  To fix the issue we created a new test custom list and tried to delete the test list and we are successfully deleted it. Again, we created another test list and created a list item. Now we tried to delete the list and received same error. Now deleted the list item and tried to delete the list then we had successfully deleted the new test list.
+Steps followed to fix the issue on the actual list.
+1.	Removed all the list items in the list.
+2.	After that, we tried to delete the list.
+3.	We had successfully deleted the list.
